@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # Replace with your actual BotFather token or set it as an environment variable
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8833601385:AAE8N7ncceCIN-O_oSyhFIeq_h8bv5pIMB0")
+BOT_TOKEN = os.getenv("BOT_TOKEN","YOUR_TELEGRAM_BOT_TOKEN")
 DB_NAME = "birthdays.db"
 
 # ---------------------------------------------------------
