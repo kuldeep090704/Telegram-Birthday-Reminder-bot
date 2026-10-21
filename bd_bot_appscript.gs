@@ -1,8 +1,8 @@
 // 1. Replace with your actual BotFather Telegram Token
-const BOT_TOKEN = "8618299648:AAF2LjgdLYOacXhz6cTrTUSBGjhiAguafZQ";
+const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
 
 // 2. Paste your deployed Web App URL here after completing Step 2 below
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzAcG-eDxdXtMgJQV3iQm2tzlk40crjamWTFaMSchsSTbw4-w5VvUp23Ax9VdItUAqk/exec";
+const WEB_APP_URL = "YOUR_WEB_APP_URL";
 
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 const SHEET_NAME = "Birthdays";
@@ -115,8 +115,8 @@ function sendTemplate(chatId) {
     "2️⃣ 'DOB' — Date of birth (Format: `YYYY-MM-DD` or `DD/MM/YYYY`)\n" +
     "3️⃣ `Message` — *(Optional)* A customized note or wish for them\n\n" +
     "📋 *Example Layout:*\n" +
-    "• Name: `Kuldeep chaturvedi` | DOB: `2003-10-21` | Message: `Call and order cake!`\n" +
-    "• Name: `Ms. Ashwini` | DOB: `14/05/2003` | Message: `Send gift voucher!`\n\n" +
+    "• Name: `kuldeep` | DOB: `2003-10-21` | Message: `Call and order cake!`\n" +
+    "• Name: `neha` | DOB: `14/05/2003` | Message: `Send gift voucher!`\n\n" +
     "Once you save your Excel file, just upload it directly here into our chat!";
 
   sendMessage(chatId, templateText);
